@@ -66,11 +66,7 @@ int main(int argc, char* argv[])
 				{
 					psi_type |= atol(optarg);
 				}
-				
 				break;
-			//case 'r':
-			//	info.operate_type |= DELET_VALID;
-			//	break;
 			default:
 				printf("\n");
 				usage(argv[0]);
